@@ -34,7 +34,7 @@ Display the filtered image using plot and imshow.
 # Import the packages
 import cv2
 import matplotlib.pyplot as plt
-image = cv2.imread("luffty.jpg")
+image = cv2.imread("ek.jpeg")
 gray_image = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 new_image = cv2.GaussianBlur(gray_image,(3,3),0)
 
